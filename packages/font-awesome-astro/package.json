@@ -1,6 +1,8 @@
 {
   "name": "font-awesome-astro",
   "version": "1.0.0",
+    "description": "Font Awesome Astro component",
+  "homepage": "https://github.com/mgmka/font-awesome-astro",
   "type": "module",
   "exports": {
     ".": "./index.js",
