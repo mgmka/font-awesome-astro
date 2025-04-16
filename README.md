@@ -16,4 +16,4 @@ Official Font Awesome integration for Astro. Easily use Font Awesome icons in yo
 ## Installation
 
 ```bash
-npm install fontawesome-astro @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons
+npm install font-awesome-astro @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons
