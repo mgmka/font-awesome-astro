@@ -1,0 +1,24 @@
+{
+  "name": "font-awesome-astro",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./icon": "./FontAwesomeIcon.astro",
+    "./layer": "./FontAwesomeLayer.astro"
+  },
+  "files": [
+    "FontAwesomeIcon.astro",
+    "FontAwesomeLayer.astro",
+    "index.js"
+  ],
+  "keywords": [
+    "astro-component",
+    "withastro",
+    "fontawesome",
+    "icons"
+  ],
+  "peerDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.0.0"
+  }
+}

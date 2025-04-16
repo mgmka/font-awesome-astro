@@ -1,35 +1,19 @@
-# Astro Starter Kit: Component Package
+# Font Awesome Astro Components
 
-This is a template for an Astro component library. Use this template for writing components to use in multiple projects or publish to NPM.
+[![npm](https://img.shields.io/npm/v/font-awesome-astro)](https://www.npmjs.com/package/fontawesome-astro)
+[![license](https://img.shields.io/npm/l/font-awesome-astro)](LICENSE)
 
-```sh
-npm create astro@latest -- --template component
-```
+Official Font Awesome integration for Astro. Easily use Font Awesome icons in your Astro projects with optimized SVG rendering.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/non-html-pages)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/non-html-pages)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/component/devcontainer.json)
+## Features
 
-## 🚀 Project Structure
+- **Zero client-side JS**: Pure SVG rendering
+- **SSR compatible**: Works with server-side rendering
+- **TypeScript support**: Full type definitions included
+- **Layered icons**: Create complex icon compositions
+- **Styling control**: Apply classes directly to SVGs
 
-Inside of your Astro project, you'll see the following folders and files:
+## Installation
 
-```text
-/
-├── index.ts
-├── src
-│   └── MyComponent.astro
-├── tsconfig.json
-├── package.json
-```
-
-The `index.ts` file is the "entry point" for your package. Export your components in `index.ts` to make them importable from your package.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command       | Action                                                                                                                                                                                                                           |
-| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `npm link`    | Registers this package locally. Run `npm link my-component-library` in an Astro project to install your components                                                                                                               |
-| `npm publish` | [Publishes](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages#publishing-unscoped-public-packages) this package to NPM. Requires you to be [logged in](https://docs.npmjs.com/cli/v8/commands/npm-adduser) |
+```bash
+npm install fontawesome-astro @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons
