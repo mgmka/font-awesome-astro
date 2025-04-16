@@ -30,7 +30,7 @@ pnpm add font-awesome-astro @fortawesome/fontawesome-svg-core @fortawesome/free-
 
 ```js
 ---
-import { FontAwesomeIcon } from 'fontawesome-astro';
+import { FontAwesomeIcon } from 'font-awesome-astro';
 import { faRocket } from '@fortawesome/free-solid-svg-icons';
 ---
 
@@ -44,7 +44,7 @@ import { faRocket } from '@fortawesome/free-solid-svg-icons';
 
 ```js
 ---
-import { FontAwesomeLayer } from 'fontawesome-astro';
+import { FontAwesomeLayer } from 'font-awesome-astro';
 import { faCircle, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 ---
 
@@ -101,7 +101,7 @@ Add to your tsconfig.json:
 
 ```js
 ---
-import { FontAwesomeIcon } from 'fontawesome-astro';
+import { FontAwesomeIcon } from 'font-awesome-astro';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 ---
 
@@ -113,7 +113,7 @@ import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 ### Social Media Stack
 ```js
 ---
-import { FontAwesomeLayer } from 'fontawesome-astro';
+import { FontAwesomeLayer } from 'font-awesome-astro';
 import { 
   faSquare,
   faTwitter,

@@ -1,6 +1,8 @@
 {
   "name": "font-awesome-astro",
-  "version": "0.0.4",
+  "homepage": "https://github.com/mgmka/font-awesome-astro",
+  "workspaces": ["demo", "packages/*"],
+  "version": "0.0.5",
   "type": "module",
   "exports": {
     ".": "./index.ts"
